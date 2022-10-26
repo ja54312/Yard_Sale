@@ -5,7 +5,7 @@ const Home = () => {
     <>
         <div className='login'>
           <div className='form-container'>
-            <img alt='logo' className='logo'/>
+            <img src='./logos/logo_yard_sale.svg' alt='logo' className='logo'/>
             <h1 className='title'>Create a new password</h1>
             <p className='subtitle'>Enter a new password for you account</p>
             <form className='form'>
