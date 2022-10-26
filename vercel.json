@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "Yard Sale",
+    "name": "yard_sale",
     "builds": [
         { "use": "@vercel/static-build", "src": "package.json"}
     ],
