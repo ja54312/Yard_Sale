@@ -15,7 +15,7 @@ const Home = () => {
               <input type='password' id='new-passwrd' placeholder='*********' className='input input-password'/>
               <input type='sumbit' value='Confirm' className='primary-button login-button'/>
             </form> */}
-            <h1 className="title">Email has been sent!</h1>
+            {/* <h1 className="title">Email has been sent!</h1>
             <p className="subtitle">Please check your inbox for instructions on how to reset the password</p>
 
             <div className="email-image">
@@ -27,7 +27,19 @@ const Home = () => {
             <p className="resend">
               <span>Didn't receive the email?</span>
               <a href="/">Resend</a>
-            </p>
+            </p> */}
+            <form action="/" className="form">
+              <label htmlFor="email" className="label">Email address</label>
+              <input type="text" id="email" placeholder="platzi@example.cm" className="input input-email"/>
+
+              <label htmlFor="password" className="label">Password</label>
+              <input type="password" id="password" placeholder="*********" className="input input-password"/>
+
+              <input type="submit" value="Log in" className="primary-button login-button"/>
+              <a href="/">Forgot my password</a>
+            </form>
+
+            <button className="secondary-button signup-button">Sign up</button>
           </div>
         </div>
     </>
