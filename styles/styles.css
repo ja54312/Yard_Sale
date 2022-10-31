@@ -108,6 +108,16 @@
   text-decoration: none;
   margin-bottom: 52px;
 }
+/*Cuenta*/
+.input-name,
+.input-email,
+.input-password {
+  margin-bottom: 22px;
+}
+.title {
+  margin-bottom: 36px;
+  text-align: start;
+}
 /*RESPONSIVE*/
 @media (max-width: 640px) {
   .logo {
