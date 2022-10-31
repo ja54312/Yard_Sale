@@ -40,8 +40,9 @@ const Home = () => {
             </form>
 
             <button className="secondary-button signup-button">Sign up</button> */}
+            <h1 className="title">My account</h1>
             <form action="/"className="form">
-              <div>
+              <div className='container-inputsform'>
                 <label htmlFor="name"className="label">Name</label>
                 <input type="text" id="name" placeholder="Teff"className="input input-name"/>
 

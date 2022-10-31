@@ -109,6 +109,13 @@
   margin-bottom: 52px;
 }
 /*Cuenta*/
+.form-container{
+  justify-items: start;
+}
+.container-inputsform{
+  display: flex;
+  flex-direction: column;
+}
 .input-name,
 .input-email,
 .input-password {
