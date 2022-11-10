@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const Home = () => {
   return (
     <>
-      <div className="desktop-menu">
+      {/* <div className="desktop-menu">
         <ul>
           <li>
             <a href="/" className="title">My orders</a>
@@ -15,11 +15,59 @@ const Home = () => {
             <a href="/">Sign out</a>
           </li>
         </ul>
+      </div> */}
+      <div className="mobile-menu">
+        <ul>
+          <li>
+            <a href="/">CATEGORIES</a>
+          </li>
+          <li>
+            <a href="/">All</a>
+          </li>
+          <li>
+            <a href="/">Clothes</a>
+          </li>
+          <li>
+            <a href="/">Electronics</a>
+          </li>
+          <li>
+            <a href="/">Furnitures</a>
+          </li>
+          <li>
+            <a href="/">Toys</a>
+          </li>
+          <li>
+            <a href="/">Other</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="/">My orders</a>
+          </li>
+          <li>
+            <a href="/">My account</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="/" className="email">
+              platzi@example.com
+            </a>
+          </li>
+          <li>
+            <a href="/" className="sign-out">
+              Sign out
+            </a>
+          </li>
+        </ul>
       </div>
       <section className="main-container">
         <div className="cards-container">
           <div className="product-card">
-            <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+            <img
+              src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt=""
+            />
             <div className="product-info">
               <div>
                 <p>$120,00</p>
@@ -31,7 +79,10 @@ const Home = () => {
             </div>
           </div>
           <div className="product-card">
-            <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+            <img
+              src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt=""
+            />
             <div className="product-info">
               <div>
                 <p>$120,00</p>
@@ -43,7 +94,10 @@ const Home = () => {
             </div>
           </div>
           <div className="product-card">
-            <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+            <img
+              src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt=""
+            />
             <div className="product-info">
               <div>
                 <p>$120,00</p>
@@ -55,7 +109,10 @@ const Home = () => {
             </div>
           </div>
           <div className="product-card">
-            <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+            <img
+              src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt=""
+            />
             <div className="product-info">
               <div>
                 <p>$120,00</p>
@@ -67,7 +124,10 @@ const Home = () => {
             </div>
           </div>
           <div className="product-card">
-            <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+            <img
+              src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt=""
+            />
             <div className="product-info">
               <div>
                 <p>$120,00</p>
@@ -79,7 +139,10 @@ const Home = () => {
             </div>
           </div>
           <div className="product-card">
-            <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+            <img
+              src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt=""
+            />
             <div className="product-info">
               <div>
                 <p>$120,00</p>
@@ -91,7 +154,10 @@ const Home = () => {
             </div>
           </div>
           <div className="product-card">
-            <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+            <img
+              src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt=""
+            />
             <div className="product-info">
               <div>
                 <p>$120,00</p>
@@ -103,7 +169,10 @@ const Home = () => {
             </div>
           </div>
           <div className="product-card">
-            <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+            <img
+              src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt=""
+            />
             <div className="product-info">
               <div>
                 <p>$120,00</p>
@@ -115,7 +184,10 @@ const Home = () => {
             </div>
           </div>
           <div className="product-card">
-            <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+            <img
+              src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt=""
+            />
             <div className="product-info">
               <div>
                 <p>$120,00</p>
@@ -193,7 +265,7 @@ const Home = () => {
     </div>
       </div > */}
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
